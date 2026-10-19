@@ -21,36 +21,6 @@
   --sketch-radius: 18px 7px 16px 6px / 7px 16px 6px 18px;
   color-scheme: light;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #0c1122;
-    --grid: transparent;
-    --surface: #131a31;
-    --text: #e8eaf3;
-    --muted: #9aa3bb;
-    --rule: #2b3556;
-    --sketch: #56618a;
-    --ink: #070b18;
-    --ink-2: #161f55;
-    --accent: #98a8ff;
-    --accent-soft: #1d2552;
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #0c1122;
-  --grid: transparent;
-  --surface: #131a31;
-  --text: #e8eaf3;
-  --muted: #9aa3bb;
-  --rule: #2b3556;
-  --sketch: #56618a;
-  --ink: #070b18;
-  --ink-2: #161f55;
-  --accent: #98a8ff;
-  --accent-soft: #1d2552;
-  color-scheme: dark;
-}
 
 /* ---------- Base ---------- */
 *, *::before, *::after { box-sizing: border-box; }
